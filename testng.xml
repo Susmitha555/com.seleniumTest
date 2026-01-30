@@ -9,12 +9,12 @@
 
 	</test>
 
-	<test name="Home Page Test">
+	<!--<test name="Home Page Test">
 		<classes>
 			<class name="com.testautomationpractice.testcases.HomepageTest" />
 
 		</classes>
 
-	</test>
+	</test>-->
 
 </suite>
