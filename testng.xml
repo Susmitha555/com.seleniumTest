@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Test">
+
+	<test name="Login Test">
+		<classes>
+			<class name="com.testautomationpractice.testcases.loginPageTest" />
+
+		</classes>
+
+	</test>
+
+	<test name="Home Page Test">
+		<classes>
+			<class name="com.testautomationpractice.testcases.HomepageTest" />
+
+		</classes>
+
+	</test>
+
+</suite>
