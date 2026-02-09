@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="retrylogin test" parallel="false" thread-count="1">
+
+	<listeners>
+		<listener class-name="com.testautomationpractice.Util.AnnotationTransformaer" />
+
+	</listeners>
+
+	<test name="loginRetryTest">
+
+		<classes>
+			<class name="com.testautomationpractice.testcases.retryFailedTest" />
+		</classes>
+
+
+	</test>
+
+
+</suite>
