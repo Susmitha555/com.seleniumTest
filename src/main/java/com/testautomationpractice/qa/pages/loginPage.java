@@ -1,5 +1,6 @@
 package com.testautomationpractice.qa.pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -41,6 +42,7 @@ public class loginPage extends TestBase {
 		password.sendKeys(passworrd);
 		loginBtn.click();
 
+		validPassword.sendKeys(Keys.CONTROL + "a");
 		return new HomePage();
 		
 
